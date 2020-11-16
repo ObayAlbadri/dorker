@@ -1,17 +1,16 @@
-# dorker
+# Dorker
 Perform a list of google dorks on a given domain (and its subdomains)
 
 
-# Usage
+## Usage
 
 ``` 
-python dorker.py --domain a.com --payloads dorks.txt
+python dorker.py --domain 'a.com' --payloads dorks.txt
 or
-python dorker.py --domain a.com,b.com --payloads dorks.txt --output  output-dir --additional-query 'ext:php'
+python dorker.py --domain 'a.com,b.com' --payloads dorks.txt --output  output-dir --additional-query 'ext:php'
 
-To use proxy (export HTTPS_PROXY=10.10.10.10:1010)
 ```
-
+To use proxy `export HTTPS_PROXY=10.10.10.10:1010`
 
 Argument | Description
 -------------- | ----------------
